@@ -1,0 +1,149 @@
+Array (
+	[1] => Array (
+		[user_lastname] => Mason
+		[user_firstname] => Poppy
+		[user_age] => 1993-03-15
+		[user_interval] => 28
+		[user_gender] => femme
+		[user_zipcode] => 8018
+		[user_email] => dmbkiwi@gmail.com
+		[user_img] => assets/img/601a5f8fb6324-1612341135.jpg
+		[user_desc] => azerty
+		[user_find] => homme
+	)
+
+	[2] => Array (
+		[user_lastname] => Ali
+		[user_firstname] => Cathy
+		[user_age] => 1986-08-20
+		[user_interval] => 35
+		[user_gender] => femme
+		[user_zipcode] => 8165
+		[user_email] => cantu@me.com
+		[user_img] => assets/img/60181aba19b47-1612192442.jpg
+		[user_desc] => azerty
+		[user_find] => femme
+	)
+	[3] => Array (
+		[user_lastname] => Bauer
+		[user_firstname] => Danelle
+		[user_age] => 1972-11-03
+		[user_interval] => 49
+		[user_gender] => femme
+		[user_zipcode] => 51243
+		[user_email] => yfreund@icloud.com
+		[user_img] => assets/img/601a5f9d9f703-1612341149.jpg
+		[user_desc] => azerty
+		[user_find] => homme
+	)
+	[4] => Array (
+		[user_lastname] => Cooper
+		[user_firstname] => Sharon
+		[user_age] => 1996-03-04
+		[user_interval] => 25
+		[user_gender] => femme
+		[user_zipcode] => 23077
+		[user_email] => evans@yahoo.ca
+		[user_img] => assets/img/60193530275e0-1612264752.jpg
+		[user_desc] => azerty
+		[user_find] => homme
+	)
+	[5] => Array (
+		[user_lastname] => Heath
+		[user_firstname] => Lola
+		[user_age] => 1992-01-12
+		[user_interval] => 29
+		[user_gender] => femme
+		[user_zipcode] => 23078
+		[user_email] => jkegl@mac.com
+		[user_img] => assets/img/601949dc0f299-1612270044.jpg
+		[user_desc] => azerty
+		[user_find] => homme
+	)
+	[6] => Array (
+		[user_lastname] => Cobb
+		[user_firstname] => Aleks
+		[user_age] => 1983-07-09
+		[user_interval] => 38
+		[user_gender] => homme
+		[user_zipcode] => 10145
+		[user_email] => gemmell@mac.com
+		[user_img] => assets/img/601a5ef3521f0-1612340979.jpg
+		[user_desc] => azerty
+		[user_find] => femme
+	)
+	[7] => Array (
+		[user_lastname] => Lead
+		[user_firstname] => Albert
+		[user_age] => 1969-08-01
+		[user_interval] => 52
+		[user_gender] => homme
+		[user_zipcode] => 2400
+		[user_email] => sonnen@comcast.net
+		[user_img] => assets/img/601a5ea23cf94-1612340898.jpg
+		[user_desc] => azerty
+		[user_find] => femme
+	)
+	[8] => Array (
+		[user_lastname] => Ross
+		[user_firstname] => Bob
+		[user_age] => 1982-04-30
+		[user_interval] => 39
+		[user_gender] => homme
+		[user_zipcode] => 62496
+		[user_email] => wsnyder@verizon.net
+		[user_img] => assets/img/60191accee606-1612257996.jpg
+		[user_desc] => azerty
+		[user_find] => homme
+	)
+	[9] => Array (
+		[user_lastname] => Wise
+		[user_firstname] => Eddie
+		[user_age] => 1998-02-25
+		[user_interval] => 22
+		[user_gender] => homme
+		[user_zipcode] => 51348
+		[user_email] => suresh@sbcglobal.net
+		[user_img] => assets/img/601a5d362a7d0-1612340534.jpg
+		[user_desc] => azerty
+		[user_find] => femme
+	)
+	[10] => Array (
+		[user_lastname] => Vicker
+		[user_firstname] => Mike
+		[user_age] => 1992-09-05
+		[user_interval] => 29
+		[user_gender] => homme
+		[user_zipcode] => 62658
+		[user_email] => druschel@me.com
+		[user_img] => assets/img/601a5eb79857d-1612340919.jpg
+		[user_desc] => azerty
+		[user_find] => femme
+	)
+)
+
+
+
+
+/*$user_lastname['femme'] = array('Mason','Ali','Bauer','Cooper','Heath');
+$user_lastname['homme'] = array('Cobb','Lead','Ross','Wise','Vicker');
+$user_firstname['femme'] = array('Poppy','Cathy','Danelle','Sharon','Lola');
+$user_firstname['homme'] = array('Aleks','Albert','Bob','Eddie','Mike');
+$user_age['femme'] = array('1993-03-15','1986-08-20','1972-11-03','1996-03-04','1992-01-12','1983-07-09','1969-08-01','1982-04-30','1998-02-25','1992-09-05');
+$user_age['homme'] = array('1983-07-09','1969-08-01','1982-04-30','1998-02-25','1992-09-05');
+$user_interval['femme'] = array(28,35,49,25,29);
+$user_interval['homme'] = array(38,52,39,22,29);
+$user_gender['femme'] = array('femme','femme','femme','femme','femme');
+$user_gender['homme'] = array('homme','homme','homme','homme','homme');
+$user_zipcode['femme'] = array('8018','8165','51243','23077','23078');
+$user_zipcode['homme'] = array('10145','2400','62496','51348','62658');
+$user_email['femme'] = array('dmbkiwi@gmail.com','cantu@me.com','yfreund@icloud.com','evans@yahoo.ca','jkegl@mac.com');
+$user_email['homme'] = array('gemmell@mac.com','sonnen@comcast.net','wsnyder@verizon.net','suresh@sbcglobal.net','druschel@me.com');
+$user_img['femme'] = array('assets/img/601a5f8fb6324-1612341135.jpg','assets/img/60181aba19b47-1612192442.jpg','assets/img/601a5f9d9f703-1612341149.jpg',
+'assets/img/60193530275e0-1612264752.jpg','assets/img/601949dc0f299-1612270044.jpg');
+$user_img['homme'] = array('assets/img/601a5ef3521f0-1612340979.jpg','assets/img/601a5ea23cf94-1612340898.jpg','assets/img/60191accee606-1612257996.jpg',
+'assets/img/601a5d362a7d0-1612340534.jpg','assets/img/601a5eb79857d-1612340919.jpg');
+$user_desc['femme'] = array('1','2','3','4','5');
+$user_desc['homme'] = array('6','7','8','9','10');
+$user_find['femme'] = array('homme','femme','homme','homme','homme');
+$user_find['homme'] = array('femme','femme','homme','femme','femme');*/

@@ -1,0 +1,16 @@
+#submitInput
+{
+    margin-top:5%;
+    margin-bottom:5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top
+{
+    height: 500px !important;
+    width: 500px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
