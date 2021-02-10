@@ -1,6 +1,6 @@
-<?php include('../template/header.php');?>
+<?php include('../template/header2.php');?>
 <?php include('../controller/user_controller.php');?>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand"  id="navbar-Title"><?php echo 'Bonjour ' . $_COOKIE['lastname'] . ' !' ?></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>

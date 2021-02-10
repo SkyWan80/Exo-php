@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body
+{
+    background-color: #343a40 !important;
+}
+
+form h1
+{
+    color: white;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 60px;
+}
+
+form p
+{
+   color: white;
+   font-family: 'Architects Daughter', cursive;
+   font-size: 30px;
+}
+
+.navbar
+{
+    height: 70px;
+    border-bottom: solid 2px white;
+}
+
+#navbar-Title
+{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 60px;
+}
+
+.nav-item
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
+}
+
 #submitInput
 {
     margin-top:5%;
@@ -7,10 +48,36 @@
     margin-right: auto;
 }
 
-.card-img-top
+.card
 {
+    border: none !important;
+    margin-top: 2%;
+}
+
+.card-body
+{
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.card-img-top 
+{
+    border: solid #ea6161 5px;
     height: 500px !important;
     width: 500px !important;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#user p
+{
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+
+#user img
+{
+    border: solid #ea6161 5px;
 }

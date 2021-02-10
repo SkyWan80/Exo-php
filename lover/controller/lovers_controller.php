@@ -146,7 +146,7 @@ $users = array( //pour pouvoir tout stocker dans users et pour pouvoir facilemen
 
 ?>
 <!--PARTIE HTML-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand"  id="navbar-Title"><?php echo 'Bonjour ' . $_COOKIE['lastname'] . ' !' ?></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -169,7 +169,7 @@ $users = array( //pour pouvoir tout stocker dans users et pour pouvoir facilemen
 <?php
 	foreach($users as $i => $item) {
 		if($users[$i]['user_gender'] == $_COOKIE['find'] && $users[$i]['user_find'] == $_COOKIE['gender']){ //check si le genre des users est le même que celui de l'inscrit
-			?><div class="card col-lg-4 col-12">
+			?><div class="card bg-dark col-lg-4 col-12">
 				<img class="card-img-top" src="<?php echo $users[$i]['user_img']; ?>" alt="Card image cap">
 				<div class="card-body text-center">
 					<p class="card-text">Nom : <?php echo $users[$i]['user_firstname']; ?></p>
@@ -177,7 +177,9 @@ $users = array( //pour pouvoir tout stocker dans users et pour pouvoir facilemen
 					<p class="card-text">Age : <?php echo $users[$i]['user_interval']; ?></p>
 					<p class="card-text">Code postal : <?php echo $users[$i]['user_zipcode']; ?></p>
 					<p class="card-text"> Description : <?php echo $users[$i]['user_desc']; ?></p>
-					<button class="btn btn-primary" id="buttonLike" onclick="changeColor(this);">Like !</button>
+					<button class="btn btn-danger" id="buttonLike" onclick="changeColor(this);">Like <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg></button>
 				 </div>
 			</div>
 <?php
