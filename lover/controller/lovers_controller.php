@@ -13,6 +13,7 @@ setcookie('email',$data_email, time()+24*3600);
 setcookie('img' ,$data_image, time()+24*3600);
 setcookie('desc' ,$data_desc, time()+24*3600);
 setcookie('find',$data_find, time()+24*3600);
+header("refresh:0");
 
 }
 
